@@ -8,7 +8,7 @@
      -o-transform: $1;
         transform: $1;</string>
 	<key>name</key>
-	<string>transform</string>
+	<string>-transform</string>
 	<key>tabTrigger</key>
 	<string>-transform</string>
 	<key>uuid</key>

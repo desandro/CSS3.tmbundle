@@ -7,7 +7,7 @@
    -moz-border-radius: $1;
         border-radius: $1;</string>
 	<key>name</key>
-	<string>border-radius</string>
+	<string>-border-radius</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
