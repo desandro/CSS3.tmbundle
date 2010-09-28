@@ -382,7 +382,7 @@
 						</dict>
 						<dict>
 							<key>begin</key>
-							<string>(hsl|hsla|rgb|rgba|url|attr|counter|counters|rotateX|rotateY|rotateZ|translate|translate3d|translateZ)\s*(\()</string>
+							<string>(hsl|hsla|rgb|rgba|url|attr|counter|counters|rotateX|rotateY|rotateZ|scale|scale3d|translate|translate3d|translateZ)\s*(\()</string>
 							<key>beginCaptures</key>
 							<dict>
 								<key>1</key>
