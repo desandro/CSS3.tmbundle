@@ -1,0 +1,55 @@
+CSS3 Bundle for TextMate
+========================
+
+Adds proper syntax highlighting for new CSS3 properties and values, i.e. transitions, transforms, animations, HSLa color values, border-radius, text-shadow, box-shadow, etc.
+
+Includes convenient snippets for vendor-specific properties. For example, _-transition_ [TAB] generates:
+
+    -webkit-transition: ;
+       -moz-transition: ;
+         -o-transition: ;
+            transition: ;
+    
+
+Install
+-------
+
+The quickest way to install the bundle is via the command line. If you have Git installed, you'll probably want to install with Git. With or without, you can simply copy and paste each line one by one into the Terminal instructions ( lifted from [drnic](http://github.com/drnic/ruby-on-rails-tmbundle) and [kswedberg](http://github.com/kswedberg/jquery-tmbundle) ):
+
+### Install with Git
+
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    git clone git://github.com/desandro/CSS3.tmbundle.git "CSS3.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
+
+### Install without Git:
+
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    wget http://github.com/desandro/CSS3.tmbundle/tarball/master
+    tar zxf desandro-CSS3.tmbundle*.tar.gz
+    rm desandro-CSS3.tmbundle*.tar.gz
+    mv desandro-CSS3.tmbundle* "CSS3.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
+
+### Install with download
+
+If you'd like to avoid the command line altogether, you can download the bundle and install it:
+
+1. Download the zip from [http://github.com/desandro/CSS3.tmbundle/zipball/master](http://github.com/desandro/CSS3.tmbundle/zipball/master)
+2. Find the zip file on your local machine and double-click to unzip it
+3. Change the file name from *desandro-CSS3.tmbundle-really_long_alpha_numeric_sequence* to *CSS3.tmbundle*
+4. Double-click the *CSS3.tmbundle* file
+5. Open TextMate and select the following menu item: *Bundles > Bundle Editor > Reload Bundles*
+6. Show the Bundle Editor (*Bundles > Bundle Editor > Show Bundle Editor*)
+7. Scroll through the list of bundles to confirm that the bundle has been properly installed
+
+
+Setting as default CSS Bundle
+-----------------------------
+
+After installing the bundle via the method above, the CSS3 bundle will be available, but the original CSS bundle will remain the default bundle.  
+
+[ need to add instructions on how to change this]
+
