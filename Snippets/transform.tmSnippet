@@ -5,6 +5,7 @@
 	<key>content</key>
 	<string>-webkit-transform: ${1};
    -moz-transform: $1;
+    -ms-transform: $1;
      -o-transform: $1;
         transform: $1;</string>
 	<key>name</key>
