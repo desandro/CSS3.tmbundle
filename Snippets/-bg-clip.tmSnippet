@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-background-clip: ${1};
+	<string>-webkit-background-clip: ${1:content|padding}-box;
    -moz-background-clip: $1;
-        background-clip: $1;</string>
+        background-clip: $1-box;</string>
 	<key>name</key>
 	<string>-bg-clip</string>
 	<key>scope</key>
