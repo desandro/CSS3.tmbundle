@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition: ${1};
-   -moz-transition: $1;
-    -ms-transition: $1;
-     -o-transition: $1;
-        transition: $1;
+	<string>-webkit-transform: scale${1:X/Y}(${2:2});
+   -moz-transform: scale$1($2);
+    -ms-transform: scale$1($2);
+     -o-transform: scale$1($2);
+        transform: scale$1($2);
 </string>
 	<key>name</key>
-	<string>-transition</string>
+	<string>-transform:scale</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transition</string>
+	<string>-transform</string>
 	<key>uuid</key>
-	<string>08745BCE-F647-490E-AF53-BEBBC703C097</string>
+	<string>EF969779-7E27-4F18-85BA-C37504BE65B4</string>
 </dict>
 </plist>

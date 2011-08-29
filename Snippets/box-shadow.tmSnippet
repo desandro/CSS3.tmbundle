@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-box-shadow: ${1};
-   -moz-box-shadow: $1;
-     -o-box-shadow: $1;
-        box-shadow: $1;</string>
+	<string>-webkit-box-shadow: ${1:0} ${2:1px} ${3:3px} ${4:#000};
+   -moz-box-shadow: $1 $2 $3 $4;
+        box-shadow: $1 $2 $3 $4;
+</string>
 	<key>name</key>
 	<string>-box-shadow</string>
 	<key>scope</key>

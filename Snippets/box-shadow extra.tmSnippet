@@ -3,16 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-background-clip: ${1:padding | content | border}-box;
-   -moz-background-clip: $1;
-        background-clip: $1-box;</string>
+	<string>-webkit-box-shadow: ${1:inset }${2:0} ${3:1px} ${4:3px} ${5:0} ${6:#000};
+   -moz-box-shadow: $1$2 $3 $4 $5 $6;
+        box-shadow: $1$2 $3 $4 $5 $6;
+</string>
 	<key>name</key>
-	<string>-bg-clip</string>
+	<string>-box-shadow extra</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-bg-clip</string>
+	<string>-box-shadow</string>
 	<key>uuid</key>
-	<string>212AE077-EC15-4EEC-92C1-3DAF507E95C6</string>
+	<string>7E37E885-7CF4-4DE0-8728-58578CE9C0BA</string>
 </dict>
 </plist>
