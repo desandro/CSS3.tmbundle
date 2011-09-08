@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: rotate${1:X/Y}(${2:7.5deg});
+	<string>-webkit-transform: rotate$1($2);
    -moz-transform: rotate$1($2);
     -ms-transform: rotate$1($2);
      -o-transform: rotate$1($2);
-        transform: rotate$1($2);
+        transform: rotate${1:X/Y}(${2:7.5deg});
 </string>
 	<key>name</key>
-	<string>-transform:rotate</string>
+	<string>transform:rotate</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transform</string>
+	<string>transform</string>
 	<key>uuid</key>
 	<string>B4232B63-5C00-4854-AADC-F79E2EB3C1BB</string>
 </dict>

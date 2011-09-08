@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: ${1};
+	<string>-webkit-transform: $1;
    -moz-transform: $1;
     -ms-transform: $1;
      -o-transform: $1;
-        transform: $1;
+        transform: ${1};
 </string>
 	<key>name</key>
-	<string>-transform</string>
+	<string>transform</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transform</string>
+	<string>transform</string>
 	<key>uuid</key>
 	<string>D0EB1605-D170-4362-ABD3-51AAF8E9121C</string>
 </dict>

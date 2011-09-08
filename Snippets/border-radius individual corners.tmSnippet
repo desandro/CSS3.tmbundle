@@ -4,17 +4,20 @@
 <dict>
 	<key>content</key>
 	<string>-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
--webkit-border-radius: $1;
-   -moz-border-radius: $1;
-        border-radius: ${1:10px};
+    -webkit-border-radius-top-left: $1; /* pre-Safari 5, delete unused */
+   -webkit-border-radius-top-right: $2;
+-webkit-border-radius-bottom-right: $3;
+ -webkit-border-radius-bottom-left: $4;
+                -moz-border-radius: $1 $2 $3 $4;
+                     border-radius: ${1:6px} ${2:6px} ${3:6px} ${4:6px};
 </string>
 	<key>name</key>
-	<string>border-radius</string>
+	<string>border-radius individual corners</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
 	<string>border-radius</string>
 	<key>uuid</key>
-	<string>264AE7EC-1BFD-4C80-91BD-6EED113FC81D</string>
+	<string>41399407-27E9-4143-A151-58FE5E6CE5EF</string>
 </dict>
 </plist>

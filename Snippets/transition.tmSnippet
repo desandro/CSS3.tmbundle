@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition: ${1};
+	<string>-webkit-transition: $1;
    -moz-transition: $1;
     -ms-transition: $1;
      -o-transition: $1;
-        transition: $1;
+        transition: ${1};
 </string>
 	<key>name</key>
-	<string>-transition</string>
+	<string>transition</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transition</string>
+	<string>transition</string>
 	<key>uuid</key>
 	<string>08745BCE-F647-490E-AF53-BEBBC703C097</string>
 </dict>

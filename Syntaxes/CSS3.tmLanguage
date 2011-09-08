@@ -471,20 +471,58 @@
 	<dict>
 		<key>comment-block</key>
 		<dict>
-			<key>begin</key>
-			<string>/\*</string>
-			<key>captures</key>
-			<dict>
-				<key>0</key>
+			<key>patterns</key>
+			<array>
 				<dict>
+					<key>begin</key>
+					<string>((/\*)\s*(@group)\s*(.*?)\s*(\*/))\s*\n?</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>comment.block.css</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.css</string>
+						</dict>
+						<key>5</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.css</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?i)\s*(?=&lt;/style)|((/\*)\s*(@end)\s*(.*?)\s*(\*/))\s*\n?</string>
 					<key>name</key>
-					<string>punctuation.definition.comment.css</string>
+					<string>meta.section.css</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>$self</string>
+						</dict>
+					</array>
 				</dict>
-			</dict>
-			<key>end</key>
-			<string>\*/</string>
-			<key>name</key>
-			<string>comment.block.css</string>
+				<dict>
+					<key>begin</key>
+					<string>/\*</string>
+					<key>captures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.css</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?i)\s*(?=&lt;/style)|\*/</string>
+					<key>name</key>
+					<string>comment.block.css</string>
+				</dict>
+			</array>
 		</dict>
 		<key>string-double</key>
 		<dict>

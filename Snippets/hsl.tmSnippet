@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>hsl( ${1:0}, ${2:100}%, ${3:50}% )</string>
+	<string>hsl(${1:0}, ${2:100}%, ${3:50}%)</string>
 	<key>name</key>
 	<string>hsl</string>
 	<key>scope</key>

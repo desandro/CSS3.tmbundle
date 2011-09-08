@@ -3,19 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: scale$1($2);
-   -moz-transform: scale$1($2);
-    -ms-transform: scale$1($2);
-     -o-transform: scale$1($2);
-        transform: scale${1:X/Y}(${2:1.5});
-</string>
+	<string>hsl(${1:0}, ${2:100}%, ${3:50}%) ${4:/* hue(0:red, 60:yellow, 120:green, 180:cyan, 240:blue, 300:magenta) saturation(0%:monochrome-100%:full) lightness(0%:black-100%:white) */}</string>
 	<key>name</key>
-	<string>transform:scale</string>
+	<string>hsl extra</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>transform</string>
+	<string>hsl</string>
 	<key>uuid</key>
-	<string>EF969779-7E27-4F18-85BA-C37504BE65B4</string>
+	<string>AFDB48C0-B8F2-4D19-B882-99BFDF7FDA5D</string>
 </dict>
 </plist>

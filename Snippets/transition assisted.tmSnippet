@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition: ${1:/*property*/} ${2:400ms} ${3:ease-out/ease/linear/ease-in-out/ease-in/cubic-bezier(0.42, 0, 1.0, 1.0)/step-start/steps(3)/steps(3,start)/step-end} ${4:1s};
-   -moz-transition: $1 $2 $3 $4;
-    -ms-transition: $1 $2 $3 $4;
-     -o-transition: $1 $2 $3 $4;
-        transition: $1 $2 $3 $4;
+	<string>-webkit-transition: $1 $2 $3$4;
+   -moz-transition: $1 $2 $3$4;
+    -ms-transition: $1 $2 $3$4;
+     -o-transition: $1 $2 $3$4;
+        transition: ${1:color} ${2:400ms} ${3:ease-in}${4: 1s};${5: /* transition-property transition-duration(ms/s) transition-timing-function(ease-out/ease/linear/ease-in-out/ease-in/cubic-bezier(0.42, 0, 1.0, 1.0)/step-start/steps(3)/steps(3,start)/step-end) transition-delay(+-ms/s) */}
 </string>
 	<key>name</key>
-	<string>-transition extra</string>
+	<string>transition extra</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transition</string>
+	<string>transition</string>
 	<key>uuid</key>
 	<string>362B66EA-539D-4480-B7BD-0FD1450D547E</string>
 </dict>

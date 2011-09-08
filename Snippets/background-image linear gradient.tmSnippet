@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-color: ${3:/* fallback color */};
-background-image: -webkit-gradient(linear, 0 top, 0 bottom, from($1), to($2));
-background-image: -webkit-linear-gradient(-90deg, ${1:#000}, ${2:#fff});
-background-image:    -moz-linear-gradient(-90deg, $1, $2);
-background-image:     -ms-linear-gradient(-90deg, $1, $2);
-background-image:      -o-linear-gradient(-90deg, $1, $2);
-background-image:         linear-gradient(-90deg, $1, $2);
+	<string>background-color: ${4:/* fallback color */};
+background-image: -webkit-gradient(linear, ${5:0 top}, ${6:0 bottom}, from($2), to($3));
+background-image: -webkit-linear-gradient($1, $1, $2);
+background-image:    -moz-linear-gradient($1, $1, $2);
+background-image:     -ms-linear-gradient($1, $1, $2);
+background-image:      -o-linear-gradient($1, $1, $2);
+background-image:         linear-gradient(${1:-90deg}, ${2:#000}, ${3:#fff});
 </string>
 	<key>name</key>
 	<string>background-image: linear gradient</string>

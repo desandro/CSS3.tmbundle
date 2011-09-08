@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-box-shadow: ${1:inset }${2:0} ${3:1px} ${4:3px} ${5:0} ${6:#000};
+	<string>-webkit-box-shadow: $1$2 $3 $4 $5 $6;
    -moz-box-shadow: $1$2 $3 $4 $5 $6;
-        box-shadow: $1$2 $3 $4 $5 $6;
+        box-shadow: ${1:inset }${2:1px} ${3:1px} ${4:3px} ${5:2px} ${6:#000}; ${7:/* inset offset-x offset-y blur spread color */}
 </string>
 	<key>name</key>
-	<string>-box-shadow extra</string>
+	<string>box-shadow extra</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-box-shadow</string>
+	<string>box-shadow</string>
 	<key>uuid</key>
 	<string>7E37E885-7CF4-4DE0-8728-58578CE9C0BA</string>
 </dict>

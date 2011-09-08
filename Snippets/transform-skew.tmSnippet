@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: skew${1:X/Y}(${2:9deg});
+	<string>-webkit-transform: skew$1($2);
    -moz-transform: skew$1($2);
     -ms-transform: skew$1($2);
      -o-transform: skew$1($2);
-        transform: skew$1($2);
+        transform: skew${1:X/Y}(${2:9deg});
 </string>
 	<key>name</key>
-	<string>-transform:skew</string>
+	<string>transform:skew</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transform</string>
+	<string>transform</string>
 	<key>uuid</key>
 	<string>3188E7A4-2D57-4BA3-8829-A0DBD382A827</string>
 </dict>

@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: translate${1:X/Y}(${2:24px});
+	<string>-webkit-transform: translate$1($2);
    -moz-transform: translate$1($2);
     -ms-transform: translate$1($2);
      -o-transform: translate$1($2);
-        transform: translate$1($2);
+        transform: translate${1:X/Y}(${2:24px});
 </string>
 	<key>name</key>
-	<string>-transform:translate</string>
+	<string>transform:translate</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>-transform</string>
+	<string>transform</string>
 	<key>uuid</key>
 	<string>4B7F6466-94FD-4E86-B3DD-2150EA3DE65F</string>
 </dict>
