@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>hsla(${1:0}, ${2:100}%, ${3:50}%, ${4:1.0})</string>
+	<string>hsl(${1:0}, ${2:100}%, ${3:50}%) ${4:/* hue(0:red, 60:yellow, 120:green, 180:cyan, 240:blue, 300:magenta) saturation(0%:monochrome-100%:full) lightness(0%:black-100%:white) */}</string>
 	<key>name</key>
-	<string>hsla</string>
+	<string>hsl extra</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>hsla</string>
+	<string>hsl</string>
 	<key>uuid</key>
-	<string>ED78F67A-E12C-4B5D-AA2B-9FACBE1A0F75</string>
+	<string>AFDB48C0-B8F2-4D19-B882-99BFDF7FDA5D</string>
 </dict>
 </plist>
